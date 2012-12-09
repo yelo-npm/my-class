@@ -2,6 +2,8 @@
 
 Probably the fastest JS class system out there. 100% no wrappers, same perfs as hand-written pure JS classes.
 
+Forked from <https://github.com/jiem/my-class>. I just packaged it as an NPM module, but I might bring more changes to it with time.
+
 * [instantiation perfs] (http://jsperf.com/moo-resig-ender-my)
 * [inheritance perfs - calling super constructor] (http://jsperf.com/moo-resig-ender-my/2)
 * [inheritance perfs - calling super method] (http://jsperf.com/moo-resig-ender-my/3)

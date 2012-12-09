@@ -1,0 +1,24 @@
+{
+  "name": "myclass",
+  "version": "1.0.0",
+  "description": "Probably the fastest JS class system out there",
+  "main": "index.js",
+  "directories": {
+    "example": "example"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/yelo-npm/my-class.git"
+  },
+  "keywords": [
+    "class",
+    "oop",
+    "inheritance"
+  ],
+  "author": "xananax@yelostudio.com",
+  "license": "MIT",
+  "readmeFilename": "README.md"
+}
