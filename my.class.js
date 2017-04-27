@@ -7,10 +7,10 @@
     define([], function () {
       return my;
     });
-  else if (typeof window !== 'undefined')
-    window.my = my;
-  else
+  else if(typeof module !== 'undefinded')
     module.exports = my;
+  else /*if (typeof window !== 'undefined')*/
+    window.my = my;
 
   //============================================================================
   // @method my.Class
